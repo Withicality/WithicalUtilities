@@ -1,0 +1,5 @@
+name: WithicalAPI
+version: '${project.version}'
+main: withicality.withicalapi.WithicalAPI
+api-version: 1.19
+description: ass api
