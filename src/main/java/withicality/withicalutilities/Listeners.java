@@ -1,4 +1,4 @@
-package withicality.withicalapi;
+package withicality.withicalutilities;
 
 import fr.mrmicky.fastboard.FastBoard;
 import org.bukkit.Bukkit;
@@ -10,9 +10,9 @@ import org.bukkit.event.player.PlayerQuitEvent;
 
 public class Listeners implements Listener {
 
-    private final WithicalAPI plugin;
+    private final UtilityPlugin plugin;
 
-    public Listeners(WithicalAPI plugin) {
+    public Listeners(UtilityPlugin plugin) {
         this.plugin = plugin;
         addAll();
     }

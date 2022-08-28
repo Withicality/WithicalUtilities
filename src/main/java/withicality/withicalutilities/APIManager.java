@@ -1,13 +1,16 @@
-package withicality.withicalapi;
+package withicality.withicalutilities;
 
 import org.bukkit.command.CommandMap;
 import org.bukkit.plugin.java.JavaPlugin;
-import withicality.withicalapi.command.WithicalCommand;
+import withicality.withicalutilities.command.WithicalCommand;
 
 import java.lang.reflect.Field;
 
 
 public class APIManager {
+    private static boolean PAPER = false;
+    public static boolean isOnPaper() { return PAPER; }
+    protected static void paper() { PAPER = true; }
     public static void registerCommand(WithicalCommand command, JavaPlugin plugin, String identifier) {
         try {
             Field commandField = plugin.getServer().getClass().getDeclaredField("commandMap");

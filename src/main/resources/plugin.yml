@@ -1,5 +1,5 @@
-name: WithicalAPI
+name: WithicalUtilities
 version: '${project.version}'
-main: withicality.withicalapi.WithicalAPI
+main: withicality.withicalutilities.UtilityPlugin
 api-version: 1.19
-description: ass api
+description: ass utilities

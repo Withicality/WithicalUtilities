@@ -1,8 +1,8 @@
-package withicality.withicalapi.entity;
+package withicality.withicalutilities.entity;
 
 import fr.mrmicky.fastboard.FastBoard;
 import org.bukkit.entity.Player;
-import withicality.withicalapi.ScoreboardManager;
+import withicality.withicalutilities.ScoreboardManager;
 
 import java.util.Arrays;
 import java.util.List;

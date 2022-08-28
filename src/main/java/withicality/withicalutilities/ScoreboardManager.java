@@ -1,4 +1,4 @@
-package withicality.withicalapi;
+package withicality.withicalutilities;
 
 import fr.mrmicky.fastboard.FastBoard;
 import org.bukkit.entity.Player;

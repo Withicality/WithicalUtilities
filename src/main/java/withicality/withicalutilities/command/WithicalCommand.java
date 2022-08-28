@@ -1,4 +1,4 @@
-package withicality.withicalapi.command;
+package withicality.withicalutilities.command;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;

@@ -1,4 +1,4 @@
-package withicality.withicalapi.event;
+package withicality.withicalutilities.event;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.HandlerList;
